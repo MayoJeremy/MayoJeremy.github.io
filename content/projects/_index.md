@@ -3,7 +3,6 @@ title: "Projekte"
 draft: false
 ---
 
-[Home](/) | [Über mich](/private/me) | [Projektübersicht](/projects/project_overview)
 
 |Projekt|Beschreibung|Status|
 |-|-|-|

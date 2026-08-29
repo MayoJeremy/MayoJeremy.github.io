@@ -6,3 +6,15 @@ theme: "PaperMod"
 caches:
   images:
     dir: ":cacheDir/images"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 10
+    - name: "Über mich"
+      url: "/private/"
+      weight: 30
+    - name: "Projekte"
+      url: "/projects/"
+      weight: 20
