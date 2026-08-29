@@ -1,0 +1,8 @@
+baseURL: "https://jeremymayo.de/"
+languageCode: "de-de"
+title: "Jeremy Mayo"
+theme: "PaperMod"
+
+caches:
+  images:
+    dir: ":cacheDir/images"
