@@ -1,6 +1,7 @@
 ---
 title: GNU Stow
 draft: false
+summary: Dotfile-Verwaltung
 --- 
 ## Problem
 
