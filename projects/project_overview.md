@@ -4,4 +4,4 @@
 
 |Projekt|Beschreibung|Status|
 |-|-|-|
-|[AdGuardHome](/projects/adguardhome.md)|Netzweiter DNS-Filter|Aktiv|
+|[AdGuardHome](/projects/adguardhome)|Netzweiter DNS-Filter|Aktiv|
