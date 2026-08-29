@@ -1,6 +1,7 @@
 ---
-title: "AdGuardHome"
+title: AdGuardHome
 draft: false
+summary: Netzweiter DNS-Filter
 ---
 
 
