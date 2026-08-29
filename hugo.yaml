@@ -18,3 +18,5 @@ menu:
     - name: "Projekte"
       url: "/projects/"
       weight: 20
+params:
+  disableSpecial1stPost: true
