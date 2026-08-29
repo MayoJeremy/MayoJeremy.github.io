@@ -19,4 +19,7 @@ menu:
       url: "/projects/"
       weight: 20
 params:
-  disableSpecial1stPost: true
+  profileMode:
+    enabled: true
+    subtitle: Linux Systems Engineer
+  ShowBreadCrumbs: true
