@@ -56,8 +56,9 @@ Blocklisten die man je nach Bedarf auswählen und importieren kann.
 Ich habe mich vorerst für [Multi Pro](https://github.com/hagezi/dns-blocklists#pro)
 entschieden um zu sehen wie oft ich manuell nachbessern muss um eine angenehme
 Userexperience beizubehalten. Hier konnte ich die Liste auch über das
-Webinterface ```Filters -> DNS blocklists -> Add blocklist ->
-Choose from the list``` auswählen und aktivieren.
+Webinterface auswählen und aktivieren:
+
+```Filters -> DNS blocklists -> Add blocklist ->Choose from the list```
 
 ## Fazit
 
