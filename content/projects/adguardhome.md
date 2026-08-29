@@ -1,5 +1,5 @@
 ---
-title:"AdGuardHome"
+title: "AdGuardHome"
 draft: false
 ---
 
