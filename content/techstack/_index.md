@@ -31,6 +31,6 @@ draft: false
 |Docker|Container-Orchestrierung|verschiedene Services Containerisieren|
 |Apache|Webserver|Reverseproxy für die verschiedenen Dashboards meiner Services|
 |CheckMk|Monitoring|Servermonitoring, Alerting|
-|[AdGuardHome](/projects/AdGuardHome)|DNS\|Network Security|Privatsphäre und Sicherheit|
+|[AdGuardHome](/projects/adguardhome)|DNS\|Network Security|Privatsphäre und Sicherheit|
 |WireGuard|VPN|externer Zugang zu Heimnetzwerk|
 |Nextcloud AIO|Storage & Cloud|selfhosted Cloud|
