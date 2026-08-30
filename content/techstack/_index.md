@@ -34,3 +34,11 @@ draft: false
 |[AdGuardHome](/projects/adguardhome)|DNS\|Network Security|Privatsphäre und Sicherheit|
 |WireGuard|VPN|externer Zugang zu Heimnetzwerk|
 |Nextcloud AIO|Storage & Cloud|selfhosted Cloud|
+
+## Scripting & Programming
+
+|Sprache|Einsatzgebiet|
+|-|-|
+|Python|komplexere Scripts|
+|Lua|Konfiguration meiner Tools|
+|Bash|Automation|
