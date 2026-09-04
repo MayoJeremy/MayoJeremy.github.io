@@ -26,6 +26,32 @@ installiere ich wie in der [offiziellen Dokumentation](https://github.com/nextcl
 beschrieben und setze die Domäne via [AdGuards](/projects/adguardhome) DNS-Rewrite
 auf die lokale IP-Adresse des Apache Reverse Proxys.
 
+#### Docker Compose File
+
+```yaml
+name: nextcloud-aio
+services:
+  nextcloud-aio-mastercontainer:
+    image: ghcr.io/nextcloud-releases/all-in-one:latest
+    init: true
+    restart: always
+    container_name: nextcloud-aio-mastercontainer
+    volumes:
+      - nextcloud_aio_mastercontainer:/mnt/docker-aio-config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - "8080:8080/tcp"
+    env_file:
+      - .env
+volumes:
+  nextcloud_aio_mastercontainer:
+    name: nextcloud_aio_mastercontainer
+networks:
+  nextcloud-aio:
+    name: nextcloud-aio
+    driver: bridge
+```
+
 ### Synchronisation
 
 #### Geräte im Heimnetz
