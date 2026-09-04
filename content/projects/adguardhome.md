@@ -29,6 +29,8 @@ Mithilfe des [offiziellen Dockerimages](https://hub.docker.com/r/adguard/adguard
 als [Dockercontainer](/projects/docker) installiert. Als Deploymentmethode
 habe ich Docker Compose verwendet.
 
+#### Docker Compose File
+
 ```yaml
 services:
   adguardhome:
