@@ -29,6 +29,24 @@ Mithilfe des [offiziellen Dockerimages](https://hub.docker.com/r/adguard/adguard
 als [Dockercontainer](/projects/docker) installiert. Als Deploymentmethode
 habe ich Docker Compose verwendet.
 
+```yaml
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: AdGuardHome
+    restart: unless-stopped
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "8086:80/tcp"
+      - "8443:443/tcp"
+      - "8443:443/udp"
+      - "3000:3000/tcp"
+    volumes:
+      - ./data/conf:/opt/adguardhome/conf
+      - ./data/work:/opt/adguardhome/work
+```
+
 ### Konfiguration
 
 #### Netzwerkeinstellungen
